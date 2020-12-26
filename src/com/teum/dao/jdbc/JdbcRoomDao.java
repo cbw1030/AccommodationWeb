@@ -50,7 +50,7 @@ public class JdbcRoomDao implements RoomDao {
 
 		return result;
 	}
-
+ 
 	@Override
 	public Room getLast() {
 		// 마지막 인덱스의 event를 뽑아오는 쿼리문을 작성하자
