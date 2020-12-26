@@ -1,11 +1,12 @@
 <p align="center">
 <img align="center" style="margin:0 auto;" src="https://user-images.githubusercontent.com/65852909/103152129-35686f00-47c8-11eb-82b4-a27dfd80ff37.png"/>
-
   <h2 align="center">TEUM</h2>
 </p>
 
 ## 📑 프로젝트 소개
-기존 숙소예약시스템의 패러다임을 바꾸다 (각자쓰기)
+- 기존의 숙박 플랫폼 서비스는 숙박업체가 정해놓은 가격에 맞춰 소비자가 예약하는 시스템입니다.  
+'소비자는 더 싸게, 숙박업체는 공실을 최소화하는 방법이 없을까'라는 생각을 하였고, 소비자가 원하는 가격으로 숙박 시설을 이용할 수 있는 시스템을 구현해보고자 했습니다.  
+- 이번 프로젝트의 목표는 A to Z로 json-simple 라이브러리를 제외한 어떠한 라이브러리와 프레임워크도 사용하지 않고 진행하였습니다.
 
 ## 🛠 사용 기술
 
@@ -68,14 +69,37 @@
 
 ![event](https://user-images.githubusercontent.com/65852909/103155074-b3844000-47df-11eb-857a-3c707dbf87f1.gif)
 
-✅ [12] 기타 : 이외에도 공지사항관리, 1:1문의, 관리자페이지(숙소등록관리,회원관리,이벤트&공지사항관리,골든타임관리) 기능도 구현 하였습니다.
+✅ [12] 기타 : 이외에도 공지사항관리, 1:1문의, 관리자페이지(숙소등록관리,회원관리,이벤트 & 공지사항관리,골든타임관리) 기능도 구현하였습니다.
 
 ## 💻 개발자
 
 | <img src="https://avatars3.githubusercontent.com/u/65852909?s=400&u=8f18e9a8e35f4ea10e050c12d56c9c971e02eb4d&v=4" width="55" height="55"><br>[김병준](https://github.com/junjun-creator) | <img src="https://avatars2.githubusercontent.com/u/64012038?s=400&u=c1bf92ce021077a9d78d8418315c938e797fb238&v=4" width="55" height="55"><br>[신중언](https://github.com/Joong-eon) | <img src="https://avatars1.githubusercontent.com/u/40957996?s=400&u=df7fd20ae5c0afb399738e9b00fb770bea02d4b3&v=4" width="55" height="55"><br>[조재희](https://github.com/cbw1030) | <img src="https://avatars3.githubusercontent.com/u/73815879?s=400&v=4" width="55" height="55"><br>[박수현](https://github.com/suhyeon7846) |
 | --- | --- | --- | --- |
 
+## 역할
+- [x] Front-End
+  - 사용자 모드
+    - 제안, 역제안 페이지
+    - 결제 페이지
+    - 리뷰 페이지
+    - 예약 상세 페이지
+    - 숙소 리스트 페이지
+    - 이벤트 목록, 상세 페이지
+  - 관리자 모드
+    - 이벤트 CRUD 페이지
+- [x] Back-End
+  - 사용자 모드
+    - 제안, 역제안 기능
+    - 예약 및 예약 취소 기능
+    - 숙소 리스트 
+    - 이벤트 리스트
+  - 관리자 모드
+    - 이벤트 등록, 수정, 상세, 삭제, 공개여부
+- [x] DB 모델링
+
+## 느낀점
+- [x] 잘 짜여진 DB 모델링의 중요성을 느꼈습니다.
+- [x] 라이브러리, 프레임워크의 필요성을 느꼈습니다.
+
 ## 💼Download
   - git clone https://github.com/junjun-creator/AccommodationWeb.git
-  
-//본인이 맡은 역할, 개발하면서 힘들었던점, 느낀점 등등 자유롭게 작성
