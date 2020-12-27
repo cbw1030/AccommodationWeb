@@ -97,9 +97,5 @@
     - 이벤트 등록, 수정, 상세, 삭제, 공개여부
 - [x] DB 모델링
 
-## :zap: 느낀점
-- [x] 잘 짜여진 DB 모델링의 중요성을 느꼈습니다.
-- [x] 라이브러리, 프레임워크의 필요성을 느꼈습니다.
-
-## 💼Download
+## 💼 Download
   - git clone https://github.com/junjun-creator/AccommodationWeb.git
